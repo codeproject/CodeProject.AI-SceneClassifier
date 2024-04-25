@@ -1,0 +1,10 @@
+{
+  "Modules": {
+
+    "SceneClassifier": {
+      "LaunchSettings": {
+        "Runtime": "python3.7"
+      }
+    }
+  }
+}
