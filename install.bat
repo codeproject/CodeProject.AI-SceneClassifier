@@ -14,7 +14,7 @@
 )
 
 :: Download the YOLO models and store in /assets
-call "%sdkScriptsDirPath%\utils.bat" GetFromServer "models/" "scene-classification-models.zip" "assets" "Downloading Scene classification models..."
+call "%utilsScript%" GetFromServer "models/" "scene-classification-models.zip" "assets" "Downloading Scene classification models..."
 
 REM TODO: Check assets created and has files
 REM set moduleInstallErrors=...
