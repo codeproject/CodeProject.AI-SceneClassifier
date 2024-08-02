@@ -3,7 +3,7 @@
 
     "SceneClassifier": {
       "Name": "Scene Classification",
-      "Version": "1.7.2",
+      "Version": "1.8.0",
 
       "PublishingInfo" : {
         "Description": "Classifies an image according to one of 365 pre-trained scenes", 
@@ -59,8 +59,9 @@
           { "ModuleVersion": "1.6.2", "ServerVersionRange": [ "2.5.0-RC6", ""   ], "ReleaseDate": "2024-01-16", "ReleaseNotes": "Updated modulesettings schema" },
           { "ModuleVersion": "1.6.3", "ServerVersionRange": [ "2.5.0-RC6", "" ], "ReleaseDate": "2024-01-18", "ReleaseNotes": "Updated explorer" },
           { "ModuleVersion": "1.7.0", "ServerVersionRange": [ "2.5.0-RC6", "" ], "ReleaseDate": "2024-01-21", "ReleaseNotes": "Module performance statistics added" },
-          { "ModuleVersion": "1.7.1", "ServerVersionRange": [ "2.5.2", ""     ], "ReleaseDate": "2024-02-08", "ReleaseNotes": "Support for CodeProject.AI Server 2.5.2" },
-          { "ModuleVersion": "1.7.2", "ServerVersionRange": [ "2.5.2", ""     ], "ReleaseDate": "2024-02-15", "ReleaseNotes": "Support for Raspberry Pi", "Importance": "Minor" }
+          { "ModuleVersion": "1.7.1", "ServerVersionRange": [ "2.5.2", "2.6.0"  ], "ReleaseDate": "2024-02-08", "ReleaseNotes": "Support for CodeProject.AI Server 2.5.2" },
+          { "ModuleVersion": "1.7.2", "ServerVersionRange": [ "2.5.2", "2.6.0"  ], "ReleaseDate": "2024-02-15", "ReleaseNotes": "Support for Raspberry Pi", "Importance": "Minor" },
+          { "ModuleVersion": "1.8.0", "ServerVersionRange": [ "2.8.0", ""       ], "ReleaseDate": "2024-08-02", "ReleaseNotes": "Updated for server 2.8" }
         ]
       },
 
