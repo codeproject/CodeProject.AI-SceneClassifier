@@ -22,6 +22,41 @@
                 "CPAI_PORT": "32168"
             },
 
+            // Scene uses shared python install
+            "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/windows/python37/venv/Scripts/python",
+            "windows": {
+                "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/windows/python37/venv/Scripts/python"
+            },
+            "linux": {
+                // "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/ubuntu/python38/venv/bin/python",
+                "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/debian/python38/venv/bin/python",
+            },
+            "osx": {
+                "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/macos/python38/venv/bin/python",
+            }
+        },
+        {
+            "presentation": {
+                "group": "Start",
+                "hidden": false
+            },
+
+            "name": "Test Scene Classifier",
+            "type": "debugpy",
+            "justMyCode": false,
+            "request": "launch",
+            "program": "scene_adapter.py",
+            "args": [ "--selftest" ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+
+            "env": {
+                "RUNNING_IN_VSCODE": "True",
+                // "CPAI_LOG_VERBOSITY": "Loud",
+                "CPAI_PORT": "32168"
+            },
+
+            // Scene uses shared python install
             "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/windows/python37/venv/Scripts/python",
             "windows": {
                 "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/windows/python37/venv/Scripts/python"
@@ -34,5 +69,6 @@
                 "python": "${workspaceFolder}/../../CodeProject.AI-Server/runtimes/bin/macos/python38/venv/bin/python",
             }
         }
+
     ]
 }
